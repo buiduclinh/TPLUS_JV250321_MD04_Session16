@@ -11,6 +11,10 @@ public class Book {
     private float bookPrice;
     private int typeId;
     private int bookStatus;
+    private int totalBooks;
+
+    public int getTotalBooks() { return totalBooks; }
+    public void setTotalBooks(int totalBooks) { this.totalBooks = totalBooks; }
 
     public Book(String bookId, String bookName, String bookTitle, int bookPages, String bookAuthor, float bookPrice, int typeId, int bookStatus) {
         this.bookId = bookId;

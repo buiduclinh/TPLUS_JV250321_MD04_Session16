@@ -15,4 +15,6 @@ public interface BookTypeDAO {
     boolean addBookType(BookType bookType);
     boolean updateBookType(BookType bookType);
     boolean deleteBookType(int id);
+    boolean bookNameIsExist(String name);
+    BookType findBookTypeById(int id);
 }

@@ -18,6 +18,6 @@ public interface BookDAO {
     boolean updateBook(Book book);
     boolean addBooks(List<Book> books);
     boolean deleteBook(String id);
-    boolean findBookById(String id);
-    boolean totalBookByAuthor(Book book);
+    Book findBookById(String id);
+    List<Book> totalBookByAuthor();
 }
